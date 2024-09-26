@@ -17,7 +17,7 @@ function App() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   useEffect(()=> {
-    dispatch(fetchMultiplePokemonById(151))
+    dispatch(fetchMultiplePokemonById(500))
 
   }, []);
 
