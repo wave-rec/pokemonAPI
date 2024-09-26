@@ -33,7 +33,7 @@ function App() {
           <span>🔍</span>
         </div>
       </nav>
-      <main className='bg-[lightgray]flex flex-wrap gap-[20px] justify-center pt-[20px] pb-[20px]'>
+      <main className='bg-[lightgray] flex flex-wrap gap-[20px] justify-center pt-[20px] pb-[20px]'>
         <Suspense fallback={<div>로딩중...</div>}>
           <Routes>
             <Route path={'/'} element= {<Main />} />

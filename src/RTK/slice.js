@@ -11,7 +11,7 @@ export const pokemonSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchMultiplePokemonById.pending, (state) => {
-        state.loading=true;
+        state.loading = true;
       })
       .addCase(fetchMultiplePokemonById.rejected, (state)=> {
         state.loading = false
@@ -23,7 +23,7 @@ export const pokemonSlice = createSlice({
   } //비동기적으로 상태를 변경할 때
 })
 
-export const favoritSlice = createSlice({
+export const favoriteSlice = createSlice({
   name: 'favorite',
   initialState: [1, 2, 3],
   reducers: {
