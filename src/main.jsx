@@ -12,5 +12,3 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </Provider>
 )
-
-export default App
